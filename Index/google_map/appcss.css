@@ -1,0 +1,228 @@
+* {
+margin: 0;
+padding: 0;
+position: relative;
+
+}
+
+body {
+margin: 0;
+padding: 0;
+position: relative;
+
+background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #353990), color-stop(1, #212461));
+background-image: -webkit-linear-gradient(top left, #353990 0%, #212461 100%);
+background-image: -moz-linear-gradient(top left, #353990 0%, #212461 100%);
+          background-repeat: repeat;
+          
+background: white;
+cursor: url(resources/cursor.png), auto;
+text-emphasis-color: none;
+overflow:hidden;
+font-family: sans-serif;
+width: 100vw;
+height: 100vh;
+        
+}
+
+::selection { background: none; color:none; }
+::-moz-selection { background: none; color: none; }
+
+
+/* PREFIX HOMIE */
+
+
+#bgecke {
+          top: -50vh;
+          left: 50%;
+          height: 200vh;
+          width: 1vw;
+          background: black;
+          
+-ms-transform: rotate(-45deg); /* IE 9 */
+    -webkit-transform: rotate(-45deg); /* Chrome, Safari, Opera */
+    transform: rotate(-45deg);
+-webkit-box-shadow: 10px 0 5px -2px #888;
+            box-shadow: 10px 0 50px -2px blue;
+}
+
+
+
+
+.start:hover {
+width: 180px;
+}
+
+
+
+
+
+
+
+
+
+
+
+#iphone_mockup {
+background-image: url( 29-googlemap.png);
+display:block;
+background-repeat: no-repeat;
+position: absolute;
+height: 580px;
+width: 291px;
+left: 50%;
+top: 50vh;
+margin-left: -145.5px;
+margin-top: -290px;
+          
+}
+
+
+
+#logo_left {
+background-image: url(logo_klein2.png);
+display:block;
+background-repeat: no-repeat;
+position: absolute;
+height: 100%;
+width: 100%;
+left: 0vw;
+top: 0vh;
+
+
+          
+}
+
+
+
+
+
+#brand_box {
+position: absolute;
+height: 100%;
+width: 100%;
+left: 5vw;
+top: 6vh;
+overflow: auto;
+
+          
+}
+
+
+
+
+
+
+
+
+
+
+#screen {
+
+display: block;
+position: absolute;
+height: 395px;
+width: 223px;
+z-index: 9900000;
+margin-left: 35px;
+margin-top: 95px;
+
+        
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#button_backtodefault {
+background-color: transparent;
+display: block;
+position: absolute;
+height: 50px;
+width: 50px;
+z-index: 99000000;
+left: 50%;
+margin-left: -25px;
+margin-top: 405px;
+opacity: .2;         
+}
+
+
+
+
+
+
+
+a {
+text-decoration: none;
+font-size: 12pt;
+color: #f9f9f9;
+padding: 0px;
+line-height: 25px;
+font-weight: 100;
+          
+}
+
+
+
+
+h1 {
+font-size: 7vw; 
+font-family: "Proxima Nova", "Raleway", sans-serif;
+font-weight: 700;
+position: absolute;
+z-index: 999;
+left: 50%;
+top: 50vh;
+margin-left: 180px;
+margin-top: -242px;
+color:   #242c39; /*#2b3441;*/
+letter-spacing: 5px;
+line-height: 6vw;
+}
+
+h2 {
+font-size: 12px; 
+font-family:  "Proxima Nova", "Raleway", sans-serif;
+font-weight: 300;
+position: absolute;
+z-index: 999;
+max-width: 600px;
+width: 28vw;
+left: 0vw;
+top: 80px;
+margin-left: -1px;
+margin-top: 0px;
+color: #484f5a; /* #242c39; #2b3441;*/
+line-height: 18px;
+}
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
